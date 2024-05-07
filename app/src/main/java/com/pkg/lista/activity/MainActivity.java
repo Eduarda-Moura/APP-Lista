@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 myItem.description = data.getStringExtra("desc");
                 myItem.photo = data.getData();
 
-                itens.add(myItem);
+                itens.add(myItem); //
             }
         }
     }

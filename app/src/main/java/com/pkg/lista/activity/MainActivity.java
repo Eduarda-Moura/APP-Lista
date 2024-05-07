@@ -2,6 +2,7 @@ package com.pkg.lista.activity;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -52,4 +53,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+
 }

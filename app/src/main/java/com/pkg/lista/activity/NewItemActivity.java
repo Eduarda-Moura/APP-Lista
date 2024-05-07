@@ -18,7 +18,7 @@ import moura.eduarda.erick.applista.R;
 public class NewItemActivity extends AppCompatActivity {
 
     static int PHOTO_PICKER_REQUEST = 1;
-    Uri photoSelected = null;
+    Uri photoSelected = null; //
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

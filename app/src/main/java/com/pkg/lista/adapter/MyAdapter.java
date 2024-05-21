@@ -47,7 +47,7 @@ public class MyAdapter extends RecyclerView.Adapter {
 
         // Obtém a imagem
         ImageView imvfoto = v.findViewById(R.id.imvPhoto);
-        imvfoto.setImageURI(myItem.photo);
+        imvfoto.setImageBitmap(myItem.photo);
 
         // Obtém o texto
         TextView tvTitle = v.findViewById(R.id.tvTitle);
